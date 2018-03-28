@@ -1,0 +1,1 @@
+fc_PE <- featureCounts(filenames,annot.ext="/data/phdData/orchis/blast2go.annotation.Orchis.gff",isGTFAnnotationFile=T,GTF.featureType="CDS",isPairedEnd=TRUE,genome="/data/phdData/orchis/Oita_infl_unigenes.unleaved.fasta", GTF.attrType="ID")
